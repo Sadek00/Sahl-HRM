@@ -11,4 +11,5 @@ export class DefaultFooterComponent extends FooterComponent {
   constructor() {
     super();
   }
+  public dateNow = Date.now();
 }
